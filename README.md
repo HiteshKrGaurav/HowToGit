@@ -1,14 +1,22 @@
 # HowToGit
 
 
-### Main Command:
+### Main Commands
 
-    git clone repo_link
-    git add .
-    git commit -a -m "message"
-    git push
+```
+git clone https://github.com/HiteshKrGaurav/HowToGit.git
+```
+```
+git add .
+```
+```
+git commit -a -m "message"
+```
+```
+git push
+```
 
-### how to create ssh keys:
+### how to create ssh keys
 
     ssh-keygen -t ed25519 -C "your_email@example.com"
     
@@ -17,7 +25,7 @@ or
     ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
 
-### how to add ssh keys to github:
+### how to add ssh keys to github
 
 > [Profile > settings > SSH and GPG keys > Add ssh key](https://github.com/settings/ssh/new)
 
