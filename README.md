@@ -4,7 +4,7 @@
 ## Main Commands
 
 ```bash
-git clone https://github.com/<U\username>/<repo>.git
+git clone https://github.com/<username>/<repo>.git
 ```
 ```
 git add .
