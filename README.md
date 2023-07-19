@@ -4,7 +4,7 @@
 ## Main Commands
 
 ```bash
-git clone https://github.com/HiteshKrGaurav/HowToGit.git
+git clone https://github.com/<U\username>/<repo>.git
 ```
 ```
 git add .
@@ -48,7 +48,7 @@ ssh-add ~/.ssh/id_ed25519
 ## Add Remote URL for ssh
 
 ```bash
-git remote set-url origin git@github.com:hitesh7424/HowToGit.git
+git remote set-url origin git@github.com:<username>/<repo>.git
 ```
 - now `git push` will work on http cloned repo
 
