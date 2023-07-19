@@ -44,3 +44,12 @@ or
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_ed25519
 ```
+
+## Add Remote URL for ssh
+
+```bash
+git remote set-url origin git@github.com:hitesh7424/HowToGit.git
+```
+- now `git push` will work on http cloned repo
+
+
